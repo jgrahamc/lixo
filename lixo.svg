@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 2 2" width="800" height="800">
+<path d="M -0.43 -0.88 A 1 1 0 0 1 0.43 -0.88 L 0 0" fill="white"/>
+<path d="M -0.37 -0.77 A 1 1 0 0 1 0.37 -0.77 " fill="transparent" id="type0"/>
+<text font-size="0.08"><textPath startOffset="50%" text-anchor="middle" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#type0"><tspan font-family="sans-serif"></tspan></textPath></text>
+<path d="M 0.43 -0.88 A 1 1 0 0 1 0.96 -0.22 L 0 0" fill="#91959F"/>
+<path d="M 0.37 -0.77 A 1 1 0 0 1 0.83 -0.19 " fill="transparent" id="type1Lixo"/>
+<text font-size="0.08"><textPath startOffset="50%" text-anchor="middle" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#type1Lixo"><tspan font-family="sans-serif">Lixo</tspan></textPath></text>
+<path d="M 0.96 -0.22 A 1 1 0 0 1 0.77 0.61 L 0 0" fill="#0336EE"/>
+<path d="M 0.83 -0.19 A 1 1 0 0 1 0.66 0.53 " fill="transparent" id="type2Papel"/>
+<text font-size="0.08"><textPath startOffset="50%" text-anchor="middle" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#type2Papel"><tspan font-family="sans-serif">Papel</tspan></textPath></text>
+<path d="M 0.72 -0.16 A 1 1 0 0 1 0.58 0.46 L 0 0" fill="#F6E028"/>
+<path d="M 0.62 -0.14 A 1 1 0 0 1 0.50 0.40 " fill="transparent" id="type2Embalagens"/>
+<text font-size="0.08"><textPath startOffset="50%" text-anchor="middle" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#type2Embalagens"><tspan font-family="sans-serif">Embalagens</tspan></textPath></text>
+<path d="M 0.77 0.61 A 1 1 0 0 1 0.00 0.98 L 0 0" fill="#91959F"/>
+<path d="M 0.66 0.53 A 1 1 0 0 1 0.00 0.85 " fill="transparent" id="type3Lixo"/>
+<text font-size="0.08"><textPath startOffset="50%" text-anchor="middle" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#type3Lixo"><tspan font-family="sans-serif">Lixo</tspan></textPath></text>
+<path d="M 0.00 0.98 A 1 1 0 0 1 -0.77 0.61 L 0 0" fill="#0336EE"/>
+<path d="M 0.00 0.85 A 1 1 0 0 1 -0.66 0.53 " fill="transparent" id="type4Papel"/>
+<text font-size="0.08"><textPath startOffset="50%" text-anchor="middle" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#type4Papel"><tspan font-family="sans-serif">Papel</tspan></textPath></text>
+<path d="M -0.77 0.61 A 1 1 0 0 1 -0.96 -0.22 L 0 0" fill="#91959F"/>
+<path d="M -0.66 0.53 A 1 1 0 0 1 -0.83 -0.19 " fill="transparent" id="type5Lixo"/>
+<text font-size="0.08"><textPath startOffset="50%" text-anchor="middle" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#type5Lixo"><tspan font-family="sans-serif">Lixo</tspan></textPath></text>
+<path d="M -0.58 0.46 A 1 1 0 0 1 -0.72 -0.16 L 0 0" fill="#F6E028"/>
+<path d="M -0.50 0.40 A 1 1 0 0 1 -0.62 -0.14 " fill="transparent" id="type5Embalagens"/>
+<text font-size="0.08"><textPath startOffset="50%" text-anchor="middle" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#type5Embalagens"><tspan font-family="sans-serif">Embalagens</tspan></textPath></text>
+<path d="M -0.96 -0.22 A 1 1 0 0 1 -0.43 -0.88 L 0 0" fill="#0336EE"/>
+<path d="M -0.83 -0.19 A 1 1 0 0 1 -0.37 -0.77 " fill="transparent" id="type6Papel"/>
+<text font-size="0.08"><textPath startOffset="50%" text-anchor="middle" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#type6Papel"><tspan font-family="sans-serif">Papel</tspan></textPath></text>
+<line stroke="black" stroke-width="0.02" x1="-0.43" y1="-0.88" x2="-0.22" y2="-0.45"/>
+<line stroke="black" stroke-width="0.02" x1="0.43" y1="-0.88" x2="0.22" y2="-0.45"/>
+<line stroke="black" stroke-width="0.02" x1="0.96" y1="-0.22" x2="0.49" y2="-0.11"/>
+<line stroke="black" stroke-width="0.02" x1="0.77" y1="0.61" x2="0.39" y2="0.31"/>
+<line stroke="black" stroke-width="0.02" x1="0.00" y1="0.98" x2="0.00" y2="0.50"/>
+<line stroke="black" stroke-width="0.02" x1="-0.77" y1="0.61" x2="-0.39" y2="0.31"/>
+<line stroke="black" stroke-width="0.02" x1="-0.96" y1="-0.22" x2="-0.49" y2="-0.11"/>
+
+<circle cx="0" cy="0" r="0.500000" fill="white" stroke="black" stroke-width="0.02"/>
+<circle cx="0" cy="0" r="0.100000" fill="black"/>
+<circle cx="0" cy="0" r="0.050000" fill="white"/>
+<circle cx="0" cy="0" r="0.980000" fill="transparent" stroke="black" stroke-width="0.02"/>
+<path d="M -0.20 -0.41 A 1 1 0 0 1 0.20 -0.41 " fill="transparent" id="day0"/>
+<text font-size="0.05"><textPath startOffset="50%" text-anchor="middle" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#day0"><tspan font-family="sans-serif">Sunday</tspan></textPath></text>
+<path d="M 0.20 -0.41 A 1 1 0 0 1 0.44 -0.10 " fill="transparent" id="day1"/>
+<text font-size="0.05"><textPath startOffset="50%" text-anchor="middle" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#day1"><tspan font-family="sans-serif">Monday</tspan></textPath></text>
+<path d="M 0.44 -0.10 A 1 1 0 0 1 0.35 0.28 " fill="transparent" id="day2"/>
+<text font-size="0.05"><textPath startOffset="50%" text-anchor="middle" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#day2"><tspan font-family="sans-serif">Tuesday</tspan></textPath></text>
+<path d="M 0.35 0.28 A 1 1 0 0 1 0.00 0.45 " fill="transparent" id="day3"/>
+<text font-size="0.05"><textPath startOffset="50%" text-anchor="middle" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#day3"><tspan font-family="sans-serif">Wednesday</tspan></textPath></text>
+<path d="M 0.00 0.45 A 1 1 0 0 1 -0.35 0.28 " fill="transparent" id="day4"/>
+<text font-size="0.05"><textPath startOffset="50%" text-anchor="middle" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#day4"><tspan font-family="sans-serif">Thursday</tspan></textPath></text>
+<path d="M -0.35 0.28 A 1 1 0 0 1 -0.44 -0.10 " fill="transparent" id="day5"/>
+<text font-size="0.05"><textPath startOffset="50%" text-anchor="middle" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#day5"><tspan font-family="sans-serif">Friday</tspan></textPath></text>
+<path d="M -0.44 -0.10 A 1 1 0 0 1 -0.20 -0.41 " fill="transparent" id="day6"/>
+<text font-size="0.05"><textPath startOffset="50%" text-anchor="middle" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#day6"><tspan font-family="sans-serif">Saturday</tspan></textPath></text>
+</svg>
