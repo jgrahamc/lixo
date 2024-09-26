@@ -1,21 +1,20 @@
-OUT := out
-NAME := lixo
-
-SVG := $(OUT)/$(NAME).svg
-PDF := $(OUT)/$(NAME).pdf
-
+o = out/lixo.$1
 f = $1/.f
 d = $(call f,$(@D))
 
+EXTS := pdf png svg
+OUTS := $(foreach e,$(EXTS),$(call o,$e))
+SVG := $(filter %.svg,$(OUTS))
+
 .PHONY: all clean
-all: $(PDF) $(SVG)
+all: $(OUTS)
 
 .SECONDEXPANSION:
 
-$(PDF): $(SVG) $$d  ; @cairosvg -o $@ $<
+$(call o,%): $(SVG) $$d ; @cairosvg -f $* -d 300 -o $@ $<
 $(SVG): lixo.py $$d ; @python3 $< > $@
 
-clean: ; @rm -f $(SVG) $(PDF)
+clean: ; @rm -f $(OUTS)
 
 $(call f,%):
 	@mkdir -p $(@D)
