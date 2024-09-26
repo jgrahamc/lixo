@@ -1,10 +1,11 @@
 import math
+import sys
 
 bins = {
     "none": ["white", ""],
-    "lixo": ["#91959F", "Lixo"],
-    "papl": ["#0336EE", "Papel"],
-    "embl": ["#F6E028", "Embalagens"],
+    "lixo": ["#72859E", "Lixo"],
+    "papl": ["#255FC9", "Papel"],
+    "embl": ["#DED044", "Embalagens"],
 }
 
 days = ["Sun", "Mon", "Tues", "Wednes", "Thurs", "Fri", "Satur"]
@@ -16,7 +17,7 @@ schd = [["none"],
         ["lixo", "embl"],
         ["papl"]]
 
-wh = 800
+wh = sys.argv[1]
 pps = 1.0/len(days)
 rot = -0.25 - pps/2.0
 
@@ -34,13 +35,18 @@ def path(p, r):
     return pa
 
 def text(fs, tid, t):
-    print('<text font-size="%s"><textPath startOffset="50%%" text-anchor="middle" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#%s"><tspan font-family="sans-serif">%s</tspan></textPath></text>' % (fs, tid, t))
+    print('''
+    <text font-size="%s">
+    <textPath startOffset="50%%" text-anchor="middle" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#%s">
+    <tspan font-family="sans-serif">%s</tspan>
+    </textPath>
+    </text>''' % (fs, tid, t))
 
 outerc = 0.98
 innerc = 0.5
 centrec = 0.1
 
-print('<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 2 2" width="%d" height="%d">' % (wh, wh))
+print('<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 2 2" width="%s" height="%s">' % (wh, wh))
 
 for p in range(len(days)):
     c = outerc

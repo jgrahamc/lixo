@@ -12,7 +12,7 @@ all: $(OUTS)
 .SECONDEXPANSION:
 
 $(call o,%): $(SVG) $$d ; @cairosvg -f $* -d 300 -o $@ $<
-$(SVG): lixo.py $$d ; @python3 $< > $@
+$(SVG): lixo.py $$d ; @python3 $< 20cm > $@
 
 clean: ; @rm -f $(OUTS)
 
