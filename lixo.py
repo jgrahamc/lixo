@@ -30,7 +30,7 @@ def path(p, r):
     s = " %.2f %.2f "
     pa = "M"
     pa += getXY(p, r, s)
-    pa += "A 1 1 0 0 1"
+    pa += "A %.2f %.2f 0 0 1" % (r, r)
     pa += getXY((p+1), r, s)
     return pa
 
@@ -77,7 +77,7 @@ print('''
 
 for p in range(len(days)):
     tid = "day%d" % p
-    print('<path d="%s" fill="transparent" id="%s"/>' % (path(p, 0.45), tid))
+    print('<path d="%s" fill="transparent" id="%s"/>' % (path(p, 0.4), tid))
     text("0.05", tid, days[p]+"day")
 
 print("</svg>")
